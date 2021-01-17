@@ -1,4 +1,4 @@
-const userName = "K DOGG";
+const userName = "Khalid";
 const feats = 0;
 const themeDir = "styles/themes/";
 const themeLight = "gruvbox-light";
@@ -50,32 +50,32 @@ const linksGroups = [[
 		"header": "Resources",
 		"links": [
 			{
+				"name": "Github",
+				"url": "https://github.com/",
+				"color": "166FE9",
+				"shortKey": "h"
+			},			
+			{
 				"name": "GitLab",
 				"url": "https://gitLab.com",
 				"color": "166FE9",
 				"shortKey": "l"
 			},
 			{
-				"name": "Github",
-				"url": "https://github.com/",
-				"color": "166FE9",
-				"shortKey": "h"
-			},
-			{
-				"name": "Bitbucket",
-				"url": "https://bitbucket.org/",
-				"color": "166FE9",
-				"shortKey": ""
-			},
-			{
 				"name": "DevDocs",
 				"url": "https://devdocs.io",
 				"color": "166FE9",
 				"shortKey": ""
+			},			
+			{
+				"name": "Place Holder",
+				"url": "Place Holder",
+				"color": "166FE9",
+				"shortKey": ""
 			},
 			{
-				"name": "MDN",
-				"url": "https://developer.mozilla.org/en-US/docs/Web",
+				"name": "Place Holder",
+				"url": "Place Holder",
 				"color": "166FE9",
 				"shortKey": ""
 			}
@@ -91,8 +91,8 @@ const linksGroups = [[
 				"shortKey": "["
 			},
 			{
-				"name": "Spotify",
-				"url": "https://open.spotify.com/",
+				"name": "Youtube Music",
+				"url": "https://music.youtube.com/",
 				"color": "17CCA4",
 				"shortKey": "]"
 			},
@@ -109,78 +109,78 @@ const linksGroups = [[
 				"shortKey": ""
 			},
 			{
-				"name": "Place holder",
-				"url": "https://temp-mail.org/en/",
+				"name": "Jellyfin",
+				"url": "http://192.168.1.3:8096/",
 				"color": "17CCA4",
 				"shortKey": ""
 			}
 		]
 	},
 	{
-		"header": "Devices & VMs",
+		"header": "Servers",
 		"links": [
 			{
-				"name": "Primo",
-				"url": "https://192.168.1.6/ui/#/login",
+				"name": "Unifi Controller",
+				"url": "https://192.168.1.5:8443/",
 				"color": "CCA417",
 				"shortKey": "["
+			},
+			{
+				"name": "Alpha",
+				"url": "http://alpha.localdomain/",
+				"color": "CCA417",
+				"shortKey": "]"
+			},
+			{
+				"name": "Omega",
+				"url": "http://omega.localdomain/",
+				"color": "CCA417",
+				"shortKey": "\\"
 			},
 			{
 				"name": "UNO",
 				"url": "https://192.168.1.7/ui/#/login",
 				"color": "CCA417",
-				"shortKey": "]"
+				"shortKey": ""
 			},
 			{
 				"name": "DUO",
 				"url": "https://192.168.1.8/ui/#/login",
-				"color": "CCA417",
-				"shortKey": "\\"
-			},
-			{
-				"name": "Place holder",
-				"url": "https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011",
-				"color": "CCA417",
-				"shortKey": ""
-			},
-			{
-				"name": "Place holder",
-				"url": "https://temp-mail.org/en/",
 				"color": "CCA417",
 				"shortKey": ""
 			}
 		]
 	},
 	{
-		"header": "Network",
+		"header": "Application",
 		"links": [
 			{
-				"name": "Alpha - NAS",
-				"url": "http://192.168.1.2:8080/cgi-bin/",
-				"color": "5E5D5E",
-				"shortKey": ""
-			},
-			{
-				"name": "Unifi Controller",
-				"url": "https://192.168.1.3:8443/",
+				"name": "Guacamole",
+				"url": "http://192.168.1.5:33333/guacamole",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
 			{
 				"name": "Pi-Hole DNS",
-				"url": "http://192.168.1.3:33331/admin/",
+				"url": "http://192.168.1.5:33331/admin/",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
 			{
-				"name": "Nextcloud",
-				"url": "http://192.168.1.5/",
+				"name": "Place Holder",
+				"url": "Place Holder",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
 			{
-				"name": "Beta - Backup NAS",
-				"url": "http://192.168.1.18:8080/cgi-bin/",
+				"name": "Place Holder",
+				"url": "Place Holder",
+				"color": "5E5D5E",
+				"shortKey": ""
+			},
+			{
+				"name": "Place Holder",
+				"url": "Place Holder",
 				"color": "5E5D5E",
 				"shortKey": ""
 			}
