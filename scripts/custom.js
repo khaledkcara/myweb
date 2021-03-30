@@ -12,41 +12,6 @@ const linksGroups = [[
 ],
 [
 	{
-		"header": "Main",
-		"links": [
-			{
-				"name": "Gmail",
-				"url": "https://mail.google.com/mail/u/0/#inbox",
-				"color": "E52D27",
-				"shortKey": "y" // manually bound keys
-			},
-			{
-				"name": "Outlook",
-				"url": "https://outlook.live.com/mail/0/inbox",
-				"color": "E52D27",
-				"shortKey": "r"
-			},
-			{
-				"name": "TempMail",
-				"url": "https://temp-mail.org/en/",
-				"color": "E52D27",
-				"shortKey": "t" // bindings are case sensitive (Shift + t)
-			},
-			{
-				"name": "LinkedIn",
-				"url": "https://www.linkedin.com/uas/login?session_redirect=%2Ffeed&fromSignIn=true&trk=cold_join_sign_in",
-				"color": "E52D27",
-				"shortKey": "T" // 
-			},
-			{
-				"name": "Reddit",
-				"url": "https://www.reddit.com/",
-				"color": "E52D27",
-				"shortKey": "" // empty shortKey values are not auto bound
-			}
-		]
-	},
-	{
 		"header": "Resources",
 		"links": [
 			{
@@ -68,10 +33,10 @@ const linksGroups = [[
 				"shortKey": ""
 			},			
 			{
-				"name": "Place Holder",
-				"url": "Place Holder",
-				"color": "166FE9",
-				"shortKey": ""
+				"name": "TempMail",
+				"url": "https://temp-mail.org/en/",
+				"color": "E52D27",
+				"shortKey": "t" // bindings are case sensitive (Shift + t)
 			},
 			{
 				"name": "Place Holder",
@@ -85,32 +50,32 @@ const linksGroups = [[
 		"header": "Media",
 		"links": [
 			{
-				"name": "Youtube",
-				"url": "https://www.youtube.com/feed/subscriptions",
+				"name": "Jellyfin",
+				"url": "http://192.168.1.5:8096/",
 				"color": "17CCA4",
 				"shortKey": "["
 			},
 			{
-				"name": "Youtube Music",
-				"url": "https://music.youtube.com/",
+				"name": "Netflix",
+				"url": "https://www.netflix.com/browse",
 				"color": "17CCA4",
 				"shortKey": "]"
 			},
 			{
-				"name": "Netflix",
-				"url": "https://mail.tutanota.com/mail/",
+				"name": "Amazon Prime",
+				"url": "https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011",
 				"color": "17CCA4",
 				"shortKey": "\\"
 			},
 			{
-				"name": "Prime",
-				"url": "https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011",
+				"name": "Subsonic",
+				"url": "http://192.168.1.5:4040/index.view",
 				"color": "17CCA4",
 				"shortKey": ""
 			},
 			{
-				"name": "Jellyfin",
-				"url": "http://192.168.1.3:8096/",
+				"name": "Youtube Music",
+				"url": "https://music.youtube.com/",
 				"color": "17CCA4",
 				"shortKey": ""
 			}
