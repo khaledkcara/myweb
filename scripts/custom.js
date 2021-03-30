@@ -85,34 +85,34 @@ const linksGroups = [[
 		"header": "Servers",
 		"links": [
 			{
-				"name": "Unifi Controller",
-				"url": "https://192.168.1.5:8443/",
-				"color": "CCA417",
-				"shortKey": "["
-			},
-			{
 				"name": "Alpha",
-				"url": "http://alpha.localdomain/",
+				"url": "http://192.168.1.2:8080/cgi-bin/",
 				"color": "CCA417",
 				"shortKey": "]"
 			},
 			{
 				"name": "Omega",
-				"url": "http://omega.localdomain/",
+				"url": "http://192.168.1.3:8080/cgi-bin/",
 				"color": "CCA417",
 				"shortKey": "\\"
 			},
 			{
-				"name": "UNO",
+				"name": "MAIN-ESXI",
 				"url": "https://192.168.1.7/ui/#/login",
 				"color": "CCA417",
 				"shortKey": ""
 			},
 			{
-				"name": "DUO",
+				"name": "LAB-ESXI",
 				"url": "https://192.168.1.8/ui/#/login",
 				"color": "CCA417",
 				"shortKey": ""
+			},
+			{
+				"name": "Alpha-VM",
+				"url": "http://192.168.1.2:8088/",
+				"color": "CCA417",
+				"shortKey": "["
 			}
 		]
 	},
@@ -120,8 +120,8 @@ const linksGroups = [[
 		"header": "Application",
 		"links": [
 			{
-				"name": "Guacamole",
-				"url": "http://192.168.1.5:33333/guacamole",
+				"name": "Unifi Controller",
+				"url": "https://192.168.1.5:8443/",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
@@ -132,20 +132,20 @@ const linksGroups = [[
 				"shortKey": ""
 			},
 			{
-				"name": "Place Holder",
-				"url": "Place Holder",
+				"name": "Guacamole",
+				"url": "http://192.168.1.5:33333/guacamole",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
 			{
-				"name": "Place Holder",
-				"url": "Place Holder",
+				"name": "Qbittorrent",
+				"url": "http://192.168.1.6:33334/",
 				"color": "5E5D5E",
 				"shortKey": ""
 			},
 			{
-				"name": "Place Holder",
-				"url": "Place Holder",
+				"name": "Nextcloud",
+				"url": "http://192.168.1.5:33332/index.php/apps/files/?dir=/&fileid=6",
 				"color": "5E5D5E",
 				"shortKey": ""
 			}
