@@ -145,7 +145,7 @@ const linksGroups = [[
 			},
 			{
 				"name": "Webmin",
-				"url": "http://192.168.1.5:33332/index.php/apps/files/?dir=/&fileid=6",
+				"url": "http://192.168.1.5:10000",
 				"color": "5E5D5E",
 				"shortKey": ""
 			}
