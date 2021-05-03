@@ -35,7 +35,7 @@ const linksGroups = [[
 			{
 				"name": "TempMail",
 				"url": "https://temp-mail.org/en/",
-				"color": "E52D27",
+				"color": "166FE9",
 				"shortKey": "t" // bindings are case sensitive (Shift + t)
 			},
 			{
@@ -50,8 +50,8 @@ const linksGroups = [[
 		"header": "Media",
 		"links": [
 			{
-				"name": "Jellyfin",
-				"url": "http://192.168.1.5:8096/",
+				"name": "Plex",
+				"url": "http://192.168.1.2:32400/web/index.html",
 				"color": "17CCA4",
 				"shortKey": "["
 			},
@@ -68,14 +68,14 @@ const linksGroups = [[
 				"shortKey": "\\"
 			},
 			{
-				"name": "Subsonic",
-				"url": "http://192.168.1.5:4040/index.view",
+				"name": "Youtube Music",
+				"url": "https://music.youtube.com/",
 				"color": "17CCA4",
 				"shortKey": ""
 			},
 			{
-				"name": "Youtube Music",
-				"url": "https://music.youtube.com/",
+				"name": "Nextcloud",
+				"url": "http://192.168.1.5:33332/index.php/apps/files/?dir=/&fileid=6",
 				"color": "17CCA4",
 				"shortKey": ""
 			}
@@ -97,14 +97,14 @@ const linksGroups = [[
 				"shortKey": "\\"
 			},
 			{
-				"name": "MAIN-ESXI",
-				"url": "https://192.168.1.7/ui/#/login",
+				"name": "Delta-ESXI",
+				"url": "https://192.168.1.16/ui/#/login",
 				"color": "CCA417",
 				"shortKey": ""
 			},
 			{
-				"name": "LAB-ESXI",
-				"url": "https://192.168.1.8/ui/#/login",
+				"name": "Zeta-ESXI",
+				"url": "https://192.168.1.17/ui/#/login",
 				"color": "CCA417",
 				"shortKey": ""
 			},
@@ -144,7 +144,7 @@ const linksGroups = [[
 				"shortKey": ""
 			},
 			{
-				"name": "Nextcloud",
+				"name": "Webmin",
 				"url": "http://192.168.1.5:33332/index.php/apps/files/?dir=/&fileid=6",
 				"color": "5E5D5E",
 				"shortKey": ""
